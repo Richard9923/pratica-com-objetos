@@ -6,7 +6,7 @@ function cadastrandoCliente() {
   let inputUsuario = prompt("Qual o seu nome? ");
   let interesses = prompt("Qual o seu maior hobbie?");
 
-  // Adicionando nome e interesses ao objeto clientes.nomesIdadesClientes
+  // Adicionando nome e interesses
   clientes.interessesClientes[inputUsuario] = {
     nome: inputUsuario,
     interesses: interesses,
